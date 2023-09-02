@@ -1,32 +1,48 @@
-
 label {
   display: inline-flex;
   width: 150px;
   padding-right: 10px;
 }
 
-#email, #website, #telefone, #celular, #cep{
+#email,
+#website,
+#telefone,
+#celular,
+#cep {
   width: 200px;
   text-align: center;
   margin-top: 4px;
 }
 
-#nomeCompleto, #cpf,#endereco, #bairro, #cidade {
+#nomeCompleto,
+#cpf,
+#endereco,
+#bairro,
+#cidade {
   width: 250px;
   margin-top: 4px;
   text-align: center;
 }
 
-#dataNascimento, #estadoCivil, #sexo, #uf, #login, #senha {
+#dataNascimento,
+#estadoCivil,
+#sexo,
+#uf,
+#login,
+#senha {
   margin-top: 4px;
 }
 
 fieldset {
-   border: 1px solid;
-   border-radius: 3px;
-   border-color: red;
-   padding: 10px;
-   margin-top: 2px;
+  border: 1px solid;
+  border-radius: 3px;
+  border-color: red;
+  padding: 10px;
+  margin-top: 2px;
+}
+
+.containerAssuntos {
+  margin-bottom: 20px;
 }
 
 .assuntos {
@@ -34,14 +50,18 @@ fieldset {
   margin: 10px 0 10px 0;
 }
 
-.loginSenha {
-  margin-top: 30px;
-}
-
-#login, #senha {
+#login,
+#senha {
   text-align: center;
 }
 
+.termoConsentimento label {
+  display: inline;
+}
+
+#termoCheckbox {
+  display: inline;
+}
 
 @media screen and (min-width: 768px) {
   body {
@@ -54,11 +74,11 @@ fieldset {
 }
 
 @media screen and (max-width: 767px) {
-   body {
-       font-size: 14px;
-   }
-   .container {
-       width: 90%;
-       margin: 0 auto;
-   }
+  body {
+    font-size: 14px;
+  }
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
